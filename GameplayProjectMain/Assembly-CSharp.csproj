@@ -63,286 +63,286 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Inventory_UI.cs" />
-    <Compile Include="Assets\NPCNavMesh.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\BloomComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\DitheringComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\FogComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\FxaaComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\GrainComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\TaaComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\UserLutComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Components\VignetteComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\BloomModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\FogModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\GrainModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\UserLutModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Models\VignetteModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingComponent.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingContext.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingModel.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\PostProcessingProfile.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
-    <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
-    <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
-    <Compile Include="Assets\Prefabs\Enemies\Enemy.cs" />
-    <Compile Include="Assets\Prefabs\Enemies\EnemyController.cs" />
-    <Compile Include="Assets\Prefabs\Enemies\EnemyStats.cs" />
-    <Compile Include="Assets\Prefabs\Enemies\EnemyWander.cs" />
-    <Compile Include="Assets\Prefabs\Enemies\HitDetect.cs" />
-    <Compile Include="Assets\Prefabs\Enemies\PlayerManager.cs" />
-    <Compile Include="Assets\Prefabs\Enemies\RigBody.cs" />
-    <Compile Include="Assets\Prefabs\Enemies\Spawner.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\Code\CameraController.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\Code\GUIControlsFREE.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\Code\IKHandsFREE.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\Code\RPGCharacterControllerFREE.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\Code\RPGCharacterInputControllerFREE.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\Code\RPGCharacterMovementControllerFREE.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\Code\RPGCharacterWeaponControllerFREE.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\Bloom.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\ImageEffectBase.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\ImageEffects.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\PostEffectsBase.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\PostEffectsHelper.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\Quads.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\ScreenOverlay.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\Triangles.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\SuperCharacterController\Scripts\Gravity.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\SuperCharacterController\Scripts\SimpleStateMachine.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\BruteForceMesh.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\BSPTree.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\SuperCharacterController.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\SuperCollider.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\SuperCollisionType.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\SuperMath.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\SuperStateMachine.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\DebugDraw.cs" />
-    <Compile Include="Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Math3d.cs" />
-    <Compile Include="Assets\Scenes\InFrontOfPlayer.cs" />
-    <Compile Include="Assets\Scenes\PlayerProximity.cs" />
-    <Compile Include="Assets\Scenes\Slime.cs" />
-    <Compile Include="Assets\Scenes\TriggerEnable.cs" />
-    <Compile Include="Assets\Scripts\CamLookAt.cs" />
-    <Compile Include="Assets\Scripts\Coin.cs" />
-    <Compile Include="Assets\Scripts\CollectableController.cs" />
-    <Compile Include="Assets\Scripts\Door.cs" />
-    <Compile Include="Assets\Scripts\DoorSwitch.cs" />
-    <Compile Include="Assets\Scripts\EnemyBehaviour.cs" />
-    <Compile Include="Assets\Scripts\JumpBoost.cs" />
-    <Compile Include="Assets\Scripts\LevelPortal.cs" />
-    <Compile Include="Assets\Scripts\PathSystem.cs" />
-    <Compile Include="Assets\Scripts\Platforms.cs" />
-    <Compile Include="Assets\Scripts\PlayerCamera.cs" />
-    <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\PlayerRail.cs" />
-    <Compile Include="Assets\Scripts\PowerUp.cs" />
-    <Compile Include="Assets\Scripts\Rail.cs" />
-    <Compile Include="Assets\Scripts\RailMover.cs" />
-    <Compile Include="Assets\Scripts\RailNodeGizmo.cs" />
-    <Compile Include="Assets\Scripts\Respawn.cs" />
-    <Compile Include="Assets\Scripts\SlimeController.cs" />
-    <Compile Include="Assets\Scripts\SpeedBoost.cs" />
-    <Compile Include="Assets\Scripts\TriggerEnableCamera.cs" />
-    <Compile Include="Assets\Scripts\TriggerRotate.cs" />
-    <Compile Include="Assets\Scripts\Updated Camera\CameraCollision.cs" />
-    <Compile Include="Assets\Scripts\Updated Camera\FinalPlayerCamera.cs" />
-    <Compile Include="Assets\Scripts\UpgradedPlayerCamera.cs" />
-    <Compile Include="Assets\Switch.cs" />
-    <Compile Include="Assets\TerrainAT\AIMovement.cs" />
-    <Compile Include="Assets\TerrainAT\ChunkActivator.cs" />
-    <Compile Include="Assets\TerrainAT\DisableIfDist.cs" />
-    <Compile Include="Assets\TerrainAT\NPCController.cs" />
-    <Compile Include="Assets\TerrainAT\TerrainLoader.cs" />
-    <Compile Include="Assets\TerrainAT\TerrainUnloader.cs" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ShowAlphaChannel.shader" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\Fog.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\SunShaftsComposite.shader" />
-    <None Include="Assets\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\LutGen.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
-    <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
-    <None Include="Assets\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\MotionBlur.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
-    <None Include="Assets\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\ACES.cginc" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\RadialBlur.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ContrastComposite.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
-    <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\FisheyeShader.shader" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\Uber.shader" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\Blit.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\frag_ao.cginc" />
-    <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
-    <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\FXAA3.cginc" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.shader" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
-    <None Include="Assets\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\SSAOShader.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ConvertDepth.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\Common.cginc" />
-    <None Include="Assets\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\CreaseApply.shader" />
-    <None Include="Assets\PostProcessing\Editor Resources\UI\Trackball.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\GlobalFog.shader" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.cginc" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\TAA.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
-    <None Include="Assets\rpg-tutorial-assets\README.txt" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\TAA.cginc" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\CameraMotionBlur.shader" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\GrainGen.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\FXAA.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\README.txt" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\MotionBlurClear.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\GrayscaleEffect.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\SepiaToneEffect.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\TwirlEffect.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\VortexEffect.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\NoiseAndGrain.shader" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\VignettingShader.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\Tonemapper.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\EdgeDetectNormals.shader" />
-    <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\BlendModesOverlay.shader" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\SimpleClear.shader" />
-    <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
-    <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
-    <None Include="Assets\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+    <Compile Include="Assets\--AT--\AIMovement.cs" />
+    <Compile Include="Assets\--AT--\ChunkActivator.cs" />
+    <Compile Include="Assets\--AT--\DisableIfDist.cs" />
+    <Compile Include="Assets\--AT--\NPCController.cs" />
+    <Compile Include="Assets\--AT--\TerrainLoader.cs" />
+    <Compile Include="Assets\--AT--\TerrainUnloader.cs" />
+    <Compile Include="Assets\New Folder\Inventory_UI.cs" />
+    <Compile Include="Assets\New Folder\NPCNavMesh.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Components\BloomComponent.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Components\DitheringComponent.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Components\FogComponent.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Components\GrainComponent.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Components\TaaComponent.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Components\VignetteComponent.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Models\BloomModel.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Models\DitheringModel.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Models\FogModel.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Models\GrainModel.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Models\UserLutModel.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Models\VignetteModel.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\PostProcessingComponent.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\PostProcessingContext.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\PostProcessingModel.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\PostProcessingProfile.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+    <Compile Include="Assets\New Folder\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\New Folder\Prefabs\Enemies\Enemy.cs" />
+    <Compile Include="Assets\New Folder\Prefabs\Enemies\EnemyController.cs" />
+    <Compile Include="Assets\New Folder\Prefabs\Enemies\EnemyStats.cs" />
+    <Compile Include="Assets\New Folder\Prefabs\Enemies\EnemyWander.cs" />
+    <Compile Include="Assets\New Folder\Prefabs\Enemies\HitDetect.cs" />
+    <Compile Include="Assets\New Folder\Prefabs\Enemies\PlayerManager.cs" />
+    <Compile Include="Assets\New Folder\Prefabs\Enemies\RigBody.cs" />
+    <Compile Include="Assets\New Folder\Prefabs\Enemies\Spawner.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\Code\CameraController.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\Code\GUIControlsFREE.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\Code\IKHandsFREE.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\Code\RPGCharacterControllerFREE.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\Code\RPGCharacterInputControllerFREE.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\Code\RPGCharacterMovementControllerFREE.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\Code\RPGCharacterWeaponControllerFREE.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\Bloom.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\ImageEffectBase.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\ImageEffects.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\PostEffectsBase.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\PostEffectsHelper.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\Quads.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\ScreenOverlay.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Scripts\Triangles.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\SuperCharacterController\Scripts\Gravity.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\SuperCharacterController\Scripts\SimpleStateMachine.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\BruteForceMesh.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\BSPTree.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\SuperCharacterController.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\SuperCollider.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\SuperCollisionType.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\SuperMath.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Core\SuperStateMachine.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\DebugDraw.cs" />
+    <Compile Include="Assets\New Folder\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\Math3d.cs" />
+    <Compile Include="Assets\New Folder\Scenes\InFrontOfPlayer.cs" />
+    <Compile Include="Assets\New Folder\Scenes\PlayerProximity.cs" />
+    <Compile Include="Assets\New Folder\Scenes\Slime.cs" />
+    <Compile Include="Assets\New Folder\Scenes\TriggerEnable.cs" />
+    <Compile Include="Assets\New Folder\Scripts\CamLookAt.cs" />
+    <Compile Include="Assets\New Folder\Scripts\Coin.cs" />
+    <Compile Include="Assets\New Folder\Scripts\CollectableController.cs" />
+    <Compile Include="Assets\New Folder\Scripts\Door.cs" />
+    <Compile Include="Assets\New Folder\Scripts\DoorSwitch.cs" />
+    <Compile Include="Assets\New Folder\Scripts\EnemyBehaviour.cs" />
+    <Compile Include="Assets\New Folder\Scripts\JumpBoost.cs" />
+    <Compile Include="Assets\New Folder\Scripts\LevelPortal.cs" />
+    <Compile Include="Assets\New Folder\Scripts\PathSystem.cs" />
+    <Compile Include="Assets\New Folder\Scripts\Platforms.cs" />
+    <Compile Include="Assets\New Folder\Scripts\PlayerCamera.cs" />
+    <Compile Include="Assets\New Folder\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\New Folder\Scripts\PlayerRail.cs" />
+    <Compile Include="Assets\New Folder\Scripts\PowerUp.cs" />
+    <Compile Include="Assets\New Folder\Scripts\Rail.cs" />
+    <Compile Include="Assets\New Folder\Scripts\RailMover.cs" />
+    <Compile Include="Assets\New Folder\Scripts\RailNodeGizmo.cs" />
+    <Compile Include="Assets\New Folder\Scripts\Respawn.cs" />
+    <Compile Include="Assets\New Folder\Scripts\SlimeController.cs" />
+    <Compile Include="Assets\New Folder\Scripts\SpeedBoost.cs" />
+    <Compile Include="Assets\New Folder\Scripts\TriggerEnableCamera.cs" />
+    <Compile Include="Assets\New Folder\Scripts\TriggerRotate.cs" />
+    <Compile Include="Assets\New Folder\Scripts\Updated Camera\CameraCollision.cs" />
+    <Compile Include="Assets\New Folder\Scripts\Updated Camera\FinalPlayerCamera.cs" />
+    <Compile Include="Assets\New Folder\Scripts\UpgradedPlayerCamera.cs" />
+    <Compile Include="Assets\New Folder\Switch.cs" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\Fog.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\SunShaftsComposite.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\LutGen.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\MotionBlur.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\ACES.cginc" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\RadialBlur.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ContrastComposite.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\FisheyeShader.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\Uber.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\Blit.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\frag_ao.cginc" />
+    <None Include="Assets\New Folder\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\FXAA3.cginc" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\SSAOShader.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\Common.cginc" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\CreaseApply.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Editor Resources\UI\Trackball.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\GlobalFog.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\Bloom.cginc" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\TAA.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+    <None Include="Assets\New Folder\rpg-tutorial-assets\README.txt" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\TAA.cginc" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\CameraMotionBlur.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\GrainGen.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\FXAA.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\SuperCharacterController\SuperCharacterController\README.txt" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\MotionBlurClear.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\GrayscaleEffect.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\SepiaToneEffect.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\TwirlEffect.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\VortexEffect.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\NoiseAndGrain.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\Bloom.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\VignettingShader.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\Tonemapper.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\BlendModesOverlay.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\SimpleClear.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+    <None Include="Assets\New Folder\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+    <None Include="Assets\New Folder\RPG Character Animation Pack FREE\Elements\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Editor">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-weaver.Editor">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Runtime">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/University/Engines/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -522,13 +522,13 @@
       <HintPath>D:/University/Engines/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:/University/Engines/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

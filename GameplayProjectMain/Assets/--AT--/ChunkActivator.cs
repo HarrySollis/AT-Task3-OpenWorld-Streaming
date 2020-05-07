@@ -21,7 +21,9 @@ public class ChunkActivator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        //SET FILEPATH FOR LEVEL STREAMING HERE!!
+        ///
+        //
         DirectoryInfo dir = new DirectoryInfo(Application.persistentDataPath);
         DirectoryInfo[] info = dir.GetDirectories();
         foreach(DirectoryInfo F in info)
@@ -31,7 +33,9 @@ public class ChunkActivator : MonoBehaviour
                 Directory.CreateDirectory(Application.persistentDataPath + "/WorldChunks");
             }
         }
-
+        //
+        //
+        //
         player = GameObject.Find("Player");
         player.GetComponent<Rigidbody>().isKinematic = true;
         activatorChunks = new List<ActivatorChunk>();

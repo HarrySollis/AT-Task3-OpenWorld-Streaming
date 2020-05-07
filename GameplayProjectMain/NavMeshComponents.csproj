@@ -63,18 +63,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Navmesh Doodle\NavMeshComponents\Scripts\NavMeshLink.cs" />
-    <Compile Include="Assets\Navmesh Doodle\NavMeshComponents\Scripts\NavMeshModifier.cs" />
-    <Compile Include="Assets\Navmesh Doodle\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
-    <Compile Include="Assets\Navmesh Doodle\NavMeshComponents\Scripts\NavMeshSurface.cs" />
+    <Compile Include="Assets\New Folder\Navmesh Doodle\NavMeshComponents\Scripts\NavMeshLink.cs" />
+    <Compile Include="Assets\New Folder\Navmesh Doodle\NavMeshComponents\Scripts\NavMeshModifier.cs" />
+    <Compile Include="Assets\New Folder\Navmesh Doodle\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
+    <Compile Include="Assets\New Folder\Navmesh Doodle\NavMeshComponents\Scripts\NavMeshSurface.cs" />
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/University/Engines/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -266,19 +266,19 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>D:/University/UWE Yr2/GamePlay Programming/GameplayProjectMain/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>D:/University/UWE Yr3/AT/AT-Task3-OpenWorld-Streaming/GameplayProjectMain/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:/University/Engines/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
